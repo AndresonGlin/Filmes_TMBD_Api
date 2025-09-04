@@ -1,4 +1,4 @@
-# 🎬 API TMDB - Filmes
+# 🎬 Filmes -  Conultar API TMDB
 
 Um aplicativo web moderno em **React** para buscar e visualizar informações de filmes usando a **API TMDB**. Layout **clean, responsivo e elegante**, com cards destacados e navbar fixa.  
 
