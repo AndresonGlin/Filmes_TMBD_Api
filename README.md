@@ -1,12 +1,79 @@
-# React + Vite
+# 🎬 API TMDB - Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo web moderno em **React** para buscar e visualizar informações de filmes usando a **API TMDB**. Layout **clean, responsivo e elegante**, com cards destacados e navbar fixa.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Preview do Projeto
 
-## Expanding the ESLint configuration
+> Estrutura das Paginas:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Home Page – Grid de filmes**  
+
+
+**Página de detalhes de filme**  
+
+
+**Busca de filmes em tempo real**  
+
+
+---
+
+## 🛠 Tecnologias utilizadas
+
+- **React**  
+- **JavaScript (ES6+)**  
+- **CSS / Flexbox / Grid**  
+- **TMDB API**  
+- **Axios** (ou `fetch`)  
+
+---
+
+## Funcionalidades
+
+- 🔍 Buscar filmes pelo nome.  
+- 🎬 Visualizar detalhes completos de cada filme (imagem, título, nota, descrição).  
+- 📐 Grid de cards responsivo e interativo.  
+- 📌 Navbar fixa para fácil navegação.  
+- 🎨 Layout moderno, clean e legível.  
+
+---
+
+## 🎨 Paleta de cores
+
+| Elemento        | Cor                 |
+|-----------------|-------------------|
+| Primária        | #6d28d9 (roxo clean) |
+| Secundária/Fundo| #ffffff             |
+| Navbar          | #f7f7fb             |
+| Cards           | #f1f1f5             |
+| Texto principal | #333                |
+| Texto secundário| #555                |
+
+---
+
+## ⚙️ Pré-requisitos
+
+- Node.js >= 16  
+- npm ou yarn  
+- Chave de API da TMDB ([crie aqui](https://www.themoviedb.org/))  
+
+---
+
+## 🚀 Instalação
+
+1. Clone o repositório:
+
+- git clone https://github.com/AndresonGlin/Filmes_TMBD_Api.git
+- cd filmes
+
+2. Instalacao 
+- npm install
+
+3. Crie um arquivo .env na raiz do projeto e adicione sua chave da TMDB: 
+- VITE_TMDB_API_KEY=YOUR_TMDB_API_KEY
+
+4. Inicie a aplicação: 
+- npm run dev
+
+
